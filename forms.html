@@ -8,11 +8,11 @@
 </head>
 <body>
     <h2>Forms in HTML:</h2>
-    <form action="">
+    <form action="images.html">
         <label for="fname">First name: </label>
         <!-- <p>Enter you first name: </p> thisassigns proper block to overcome you can use label or do not use any tag at all-->
         <!-- type="text" is default, length specifires (minlength & maxlength) and mandatory is made by "required" -->
-        <input type="text" id="fname" minlength="5" maxlength="12" required/>
+        <input type="text" id="fname" minlength="5" maxlength="12" placeholder="Please enter first name" required/>
 
         <label for="mname">Middle name:</label>
         <input type="text" id="mname" minlength="5" maxlength="12" value="RK" />
@@ -39,14 +39,30 @@
         <br><br>
 
         <p>Enter your Shirt Size:</p>
-        <input type="radio" name="ShirtSize" id="small"/><label for="small">Small Size</label>
-        <input type="radio" name="ShirtSize" id="medium" checked/><label for="medium">Medium Size</label>
-        <input type="radio" name="ShirtSize" id="large"/><label for="large">Large Size</label>
+        <input type="radio" name="ShirtSize" id="small"/>
+        <label for="small">Small Size</label>
+        <input type="radio" name="ShirtSize" id="medium" checked/>
+        <label for="medium">Medium Size</label>
+        <input type="radio" name="ShirtSize" id="large"/>
+        <br><br>
+        <label for="large">Large Size</label>
+        <label for="color">Please select the color for your shirt:</label>
+        <input type="color" name="" id="color">
+
         <!-- here, name exact same name for multiple options specifies that we can select only one option of all -->
 
         <br><br>
-        <label for="color">Please select the color for your shirt:</label>
-        <input type="color" name="" id="color">
+
+
+        <p>Select the known languages:</p>
+        <input type="checkbox" name="Language" id="eng"/>
+        <label for="eng">English</label>
+        <input type="checkbox" name="Language" id="hin" checked/> <!-- by default checked -->
+        <label for="hin">Hindi</label>
+        <input type="checkbox" name="Language" id="sans"/>
+        <label for="sans">Sanskrit</label>
+       
+        <br><br>
 
         <!-- DropDown Box -->
         <label for="paymentOption">Please select a payment method:</label>
@@ -61,7 +77,14 @@
         <br><br>
         <label for="CMTS">Please provide your valuable feedback:</label>
         <!-- Input type text -->
-         <textarea name="cmts" id="CMTS"></textarea>
+         <textarea name="cmts" id="CMTS" rows="18" cols="100" placeholder="Please enter comments here...">
+         </textarea>
+         <br><br>
+
+         <input type="reset" name="" id="">
+         <input type="submit" name="" id="">
+
+         
     </form>
 </body>
 </html>
