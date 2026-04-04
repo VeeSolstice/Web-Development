@@ -1,0 +1,36 @@
+/* 
+Selector Syntax:
+selectorType{
+propertyKey: propertyValue;
+}
+*/
+
+/* 1.Element Selector */
+/* p{
+    color: red;
+}
+
+h2{
+    color:white;
+    background-color: black;
+} */
+
+/* 2. ID Selector */
+/* #pId{
+    color: rgb(92, 141, 14);
+}
+#p1Id{
+    color: rgb(173, 56, 179);
+    font-family: fantasy;
+} */
+
+/* 3.Class Selector */
+/* .Highlighter{
+    background-color: cornflowerblue;
+} */
+ .headingStyle{
+    font-size: larger;
+    color: aqua;
+ }
+
+/* 4. */
