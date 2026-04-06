@@ -1,0 +1,18 @@
+/* webAim.org > resource > color contrast checker */
+/* coolors.co > tools > contrast checker */
+body{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    color: #e0ffff;
+    background-color: #4B3C7C;
+}
+
+article{
+    background-color: rgb(34, 22, 108);
+    padding: 45px;
+    margin: 45px;
+    font-size: 16px;
+    border-radius: 25%;
+
+}
