@@ -5,6 +5,8 @@ propertyKey: propertyValue;
 }
 */
 
+
+
 /* 1.Element Selector */
 /* p{
     color: red;
@@ -15,22 +17,87 @@ h2{
     background-color: black;
 } */
 
-/* 2. ID Selector */
+
+
+
+/* *2. ID Selector */ 
 /* #pId{
-    color: rgb(92, 141, 14);
-}
+    color: rgb(52, 14, 141);
+    }
 #p1Id{
     color: rgb(173, 56, 179);
     font-family: fantasy;
-} */
+
+     } */
+
+/* #pId, #p1Id ,.highlighter{
+    color: rgb(173, 56, 179);
+    font-family: fantasy;
+           } */
+
+
+
+
 
 /* 3.Class Selector */
-/* .Highlighter{
+/* .highlighter{
     background-color: cornflowerblue;
 } */
- .headingStyle{
-    font-size: larger;
-    color: aqua;
- }
 
-/* 4. */
+
+ /* .headingStyle{
+    font-size: larger;
+    color: rgb(110, 85, 147);
+ } */
+
+
+
+ /* Priority Order: */
+ /* Id >> Class >> Element */
+
+
+
+
+
+/* 4.Nested Selector */
+/* #nestedId{
+    color: red;
+}
+
+.nestedClass{
+    color:blue;
+}
+
+p{
+    color: yellow;
+} */
+
+
+/* 5.Universal Selector: */
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+} */
+
+
+
+
+/*6. Descedant Selector:  */
+/* #DescendantSelector p{
+    color: brown;
+} */
+
+
+/* 7.Direct Child Selector */
+/* #DirectChildSelector > p{
+    color: chocolate;
+}
+
+#DirectChildSelector > section > #did{
+    color: chocolate;
+} */
+
+p:hover{
+    color: green;
+    font-weight: 600;
+}

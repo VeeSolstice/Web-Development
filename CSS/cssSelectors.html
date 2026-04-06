@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Selectors</title>
-    <link rel="shortcut icon" href="Icon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Icon/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="cssSelectors.css" />
   </head>
   <body>
@@ -23,16 +23,16 @@
     </header>
 
     <main>
-      <article>
+      <article id="ElementSelector">
         <h2>Element Selector:</h2>
-        <p>
+        <p id="p1Id" class="highlighter">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis maxime
           provident amet adipisci, obcaecati voluptatem explicabo nisi. Qui cum
           totam inventore.
         </p>
       </article>
 
-      <article>
+      <article id="IdSelector">
         <h2>ID Selector:</h2>
         <p id="pId">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
@@ -41,12 +41,67 @@
         </p>
       </article>
 
-      <article>
-        <h2>Class Selector:</h2>
-        <p id="p1Id" class="Highlighter">
+      <article id="ClassSelector">
+        <h2 class="headingStyle">Class Selector:</h2>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum saepe
           optio impedit quia pariatur aliquid, libero voluptas, quisquam totam
           iusto placeat.
+        </p>
+      </article>
+
+      <article id="NestedSelector">
+        <h2>Nested Selector</h2>
+        <p id="nestedID" class="nestedClass">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. In dolor id
+          iusto dignissimos. Itaque, est? Facere voluptates eos nihil incidunt
+          at.
+        </p>
+      </article>
+
+      <article id="DescendantSelector">
+
+        <h2>Descendant Selector</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. In dolor id
+          iusto dignissimos. Itaque, est? Facere voluptates eos nihil incidunt
+          at.
+        </p>
+
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ad?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, nesciunt reiciendis!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, nesciunt reiciendis!</p>
+        </section>
+        
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+          repellat recusandae voluptas, totam distinctio consequatur itaque
+          quaerat rem. Temporibus, omnis ad.
+        </p>
+      </article>
+
+      <article id="DirectChildSelector">
+
+        <h2>Direct Child Selector</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. In dolor id
+          iusto dignissimos. Itaque, est? Facere voluptates eos nihil incidunt
+          at.
+        </p>
+
+        <section>
+            <p id="did">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ad?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, nesciunt reiciendis!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, nesciunt reiciendis!</p>
+        </section>
+        
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+          repellat recusandae voluptas, totam distinctio consequatur itaque
+          quaerat rem. Temporibus, omnis ad.
         </p>
       </article>
     </main>
