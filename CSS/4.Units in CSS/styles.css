@@ -1,0 +1,9 @@
+/* Zuga.net > articles > HTML heading elements */
+main{
+    border: 2px solid brown;
+    /* border-radius: 5%; */
+}
+
+section{
+    border: 4px dotted rgb(160, 184, 26);
+}
