@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+h1{
+        color: darkgoldenrod;
+        background-color: antiquewhite;
+        text-decoration: underline;
+        text-decoration-color: deeppink;
+        text-decoration-style: wavy;
+        text-shadow: 2px 2px 5px gold;
+        /* horizontal shadow, vertical shadow, blurr(to increase readability), colour of the shadow */
+        font-family: "Birthstone";
+        /* site for custom made fonts: fonts.google.com */
+  }
+
+p{
+    text-align: justify;
+    text-indent: 80px;
+    line-height: 1.2rem;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px gold;
+}
+
+a{
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: deeppink;
+    text-decoration-style: wavy;
+}
