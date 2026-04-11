@@ -1,0 +1,65 @@
+.container {
+  width: 600px;
+  height: 600px;
+  background-color: aqua;
+  margin: 100px;
+  /* position: relative; */
+}
+
+.box {
+  color: white;
+  width: 100px;
+  height: 100px;
+}
+
+.static {
+  /* by default the position is static */
+  position: static;
+  background-color: black;
+}
+
+.rel {
+    /* will always be with repct to its parent(aqua box) */
+  position: relative;
+  background-color: crimson;
+  /* off-set values */
+  top: 100px;
+  left: 200px;
+}
+
+.abs {
+  /* fix vanishes as it goes behind absolute */
+  /* abs is always with respect to the parent root element */
+  /* if I make the container position: as relative, so now in this condition the parent of abs is the container(aqua box) it self */
+  position: absolute;
+  background-color: blue;
+  /* makes abs move so that it does not overlap */
+  bottom: 0%;
+  left: 0%;
+}
+
+.fix {
+    /* will always take the main html root as the parent element */
+    /* on even scrolling it remains fixed unlike abs that scrolls along */
+  background-color: brown;
+  /* z-index: 5; */
+  position: fixed;
+  top: 10px;
+  left: 0px;
+}
+
+.sti {
+    /* sticky will be fixed on the screen based on its parent's perspective: if parent(aqua box) ends then it stops right away */
+    position: sticky;
+    top: 300px;
+    left: 120px;
+    background-color: purple;
+}
+
+.blank{
+    /*vh: viewport height */
+    height: 400vh;
+}
+
+/* z - index as one is used to overlap in case of layers, higher the z-index higher the property*/
+/* basically, this is used in 3D*/
