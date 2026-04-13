@@ -23,11 +23,12 @@
         float:left;
     }
 
-    .p1{
-        /* clear: right; */
-    }
-    .p2{
-        /* clear: left; */
-    }
+    /* .p1{
+        clear: right;
+    } */
+     
+    /* .p2{
+        clear: left;
+    } */
 
 }

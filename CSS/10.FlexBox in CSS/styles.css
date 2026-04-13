@@ -1,0 +1,94 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.container {
+  height: 400px;
+  border: 2px solid red;
+  display: flex;
+  /* row(default), row-reverse, column, column-reverse */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+
+  /* wrap, nowrap(default), wrap-reverse */
+  /* Wrap property is used when we do not want our rows to get shrinked even on shortening the screen */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+
+  /* gap: spacing */
+  /* gap: 10px; */
+
+  /* row gap is given to give distance in flooring format, visible when shrinked */
+  /* row-gap: 10px; */
+
+  /* column gap is the gap between the blocks */
+  /* column-gap: 10px; */
+
+  /* flow is short-hand(combo) for flex-wrap and flex-direction  */
+  flex-flow:wrap row;
+
+  /* X-Axis */
+  /* Flex items are packed toward the start of the line, similar for end items are packed toward the end of the line(along the main axis), lastly we also have centre*/
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+
+  /* good amount of space between all, but prior and last space are not evenly spread */
+  justify-content: space-around;
+
+  /* so to overcome above issue we use this */
+  /* justify-content: space-evenly; */
+
+  /* no prior space, spacing just in between */
+  /* justify-content: space-between; */
+
+  /* Y-Axis */
+  /* Aligns flex items along the cross axis of the current line of the flex container */
+  /* align-items: flex-start; */
+
+  /* Aligns flex items along the cross axis of the current line of the flex container */
+  /* align-items: flex-end; */
+
+  align-items: center;
+
+  /* For height(by default it is stretch) */
+  /* align-items: stretch; */
+  
+  /* For height spacing in y axis by default:space-around*/
+  /* align-content: space-between; */
+  align-content: center;
+
+
+}
+
+.box {
+  border: 2px solid green;
+  /* margin: 10px 10px; */
+  width: 80px;
+
+  /* every box takes 25% space */
+  /* flex-basis: 25%; */
+}
+
+/* #box-1{
+    order: 4;
+    grows faster and covers most of the screen
+    flex-grow: 1;
+    shrinks faster
+    flex-shrink: 1;
+    flex: shrink grow basis; -> all in one
+    flex: 0 0 200px
+}
+
+#box-2{
+    order: 3;
+    flex-grow: 2;
+} */
+
+#box-4{
+    align-self: flex-end;
+}
