@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid red;
+    height: 400px;
+
+    /* Flex is for 1-D and grid is for multi-dimensional*/
+    display: grid;
+    /* gap: 10px; */
+    row-gap: 18px;
+    column-gap: 6px;
+
+    /* grid-template-columns: 100px 200px 400px; */
+    /* Instead, of px , vw pr % is a better option as it adjusts according to screen size and is not fixed. */
+    /* grid-template-columns: 25vw 30% 50%; */
+    /* can use fractions or fragments as well. Written as fr. */
+    grid-template-columns: 200px 100px;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* or */
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* grid-template-columns: repeat(5, auto); */
+    /* grid-template-columns: repeat(auto-fill, 100px); */
+
+    /* grid-template-rows: 100px 75px 50px; */
+
+    /* auto gives the same to all but leaves the one already assigned, it cannot overwrite that. */
+    /* grid-auto-rows: 120px; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: baseline; */
+
+    align-content: start;
+
+}
+
+.box{
+    border: 2px solid green;
+    padding: 12px;
+}
+
