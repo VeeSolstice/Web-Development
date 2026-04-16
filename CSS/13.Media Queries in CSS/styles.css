@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+
+ @media (orientation: portrait)  /*width is less than height*/
+ {
+    body{
+        background-color: red;
+    }
+ }
+
+/* @media (width <= 500px){
+    body{
+        background-color: red;
+    }
+} */
