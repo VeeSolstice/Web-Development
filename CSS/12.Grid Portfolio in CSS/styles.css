@@ -69,10 +69,10 @@ body{
     grid-column: span 2;
 }
 
-#B{
-    /* box-sizing: border-box;
-    background-position:bottom; */
-}
+/* #B{
+    box-sizing: border-box;
+    background-position:bottom;
+} */
 
 .child-imgs:hover{
 
